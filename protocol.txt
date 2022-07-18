@@ -1,0 +1,7 @@
+1. project үүсгэв.
+2. husky, prettier, eslint суулгац.
+   - npm init @eslint/config
+   - npm i -D prettier eslint-config-airbnb-typescript eslint-config-prettier eslint-plugin-prettier 
+   - npx husky-init && npm install
+   - npx husky set .husky/pre-commit "npm run lint"
+   - npm init @eslint/config
